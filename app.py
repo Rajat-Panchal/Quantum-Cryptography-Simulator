@@ -81,7 +81,7 @@ eve_prob = st.slider("Eve Probability",0.0,1.0,0.3)
 
 noise_prob = st.slider("Noise Probability",0.0,0.3,0.05)
 
-tab1, tab2, tab3 = st.tabs(
+tab1, tab2 = st.tabs(
     [
         "Simulator",
         "Theory",
